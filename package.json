@@ -13,8 +13,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "css-scroll-snap-polyfill": "^0.1.2",
-    "scroll-behavior-polyfill": "^2.0.13",
     "smoothscroll-polyfill": "^0.4.4"
   }
 }
