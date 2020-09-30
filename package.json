@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "parcel index.pug",
+    "build": "rm ./docs/*; parcel build index.pug --out-dir ./docs/ --public-url ./"
+  },
+  "devDependencies": {
+    "pug": "^3.0.0",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3"
+  },
+  "name": "scroll-behavior",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "scroll-behavior-polyfill": "^2.0.13",
+    "smoothscroll-polyfill": "^0.4.4"
+  }
+}

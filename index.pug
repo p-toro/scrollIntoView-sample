@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title scrollIntoView
+    link(rel="stylesheet", href="style.scss")
+    script(src="./script.ts" defer)
+  body
+    header.fixedHeader
+      p Fixed Header
+    section#sec01.sec01
+      h1 Section01
+      a(href="#sec02").js-smooth-scroll 👇 Scroll
+    section#sec02.sec02
+      h1 Section02
+      a(href="#sec01").js-smooth-scroll 👆 Scroll
